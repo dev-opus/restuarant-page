@@ -2,6 +2,7 @@
 
 :root {
     box-sizing: border-box;
+    line-height: 1.8;
 }
 
 *,
@@ -22,5 +23,53 @@ body {
 
 body {
     font-family: 'Comfortaa', cursive;
+    background-color: #e7dfd5;
+    color: #204051;
+
+    display: flex;
+    flex-direction: column;
 }
 
+#content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+
+/* 
+    =====================================================================================================================================
+                                                   PAGE NAVIGATION BAR STYLES 
+    =====================================================================================================================================
+
+*/
+.main-header {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: .3em;
+    border-bottom: 2px dashed #84a9ac;
+}
+
+.main-header .nav-bar {
+    margin-top: 0;
+    display: flex;
+}
+
+.main-header .logo {
+    letter-spacing: .25em;
+
+    text-transform: uppercase;
+}
+
+.main-header .nav-bar > ul {
+    margin-top: 0;
+    list-style: none;
+}
+
+.main-header .nav-bar ul > li > a {
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+}
