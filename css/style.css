@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+:root {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body * + * {
+    margin-top: 1.5em;
+}
+
+html,
+body {
+    height: 100%;
+    font-size: 1rem;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
