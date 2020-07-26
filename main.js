@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.log('Hey, I got updated from main.js');\nconsole.log('See, I am even live!!!');\nconsole.log('do i really need to reload? ::)');\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("// import {Home} from './home.module'\n\n// const container = document.getElementById('content');\n// container.appendChild(Home.main);\n\n// document.body.appendChild(container);\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
