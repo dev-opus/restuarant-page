@@ -73,3 +73,18 @@ body {
     color: inherit;
     text-transform: uppercase;
 }
+
+/* 
+    =====================================================================================================================================
+                                                    DOM GENERATED CONTENTS HOLDER STYLES
+    =====================================================================================================================================
+
+*/
+
+#content {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
