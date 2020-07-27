@@ -49,6 +49,7 @@ body {
     justify-content: space-between;
 
     padding-top: .3em;
+    padding-bottom: .3em;
     border-bottom: 2px dashed #84a9ac;
 }
 
@@ -59,6 +60,7 @@ body {
 
 .main-header .logo  {
     padding: 0;
+    font-weight: 900;
 }
 
 .main-header p {
