@@ -57,21 +57,43 @@ body {
     display: flex;
 }
 
-.main-header .logo {
-    letter-spacing: .25em;
+.main-header .logo  {
+    padding: 0;
+}
 
-    text-transform: uppercase;
+.main-header p {
+    margin: 0;
+    font-size: 1.2rem;
+
+    font-weight: 900;
+}
+
+.main-header .nav-bar {
+    padding: 0;
 }
 
 .main-header .nav-bar > ul {
-    margin-top: 0;
+    margin: 0;
     list-style: none;
 }
 
 .main-header .nav-bar ul > li > a {
     text-decoration: none;
     color: inherit;
-    text-transform: uppercase;
+
+    display: inline-block;
+    padding: 0 10px;
+    margin: 0;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.main-header .nav-bar ul > li > a:hover {
+    background-color: #75daad9a;
+    transform: scale(1.2);
+}
+
+.main-header .nav-bar ul > li > a:active {
+    transform: scale(1);
 }
 
 /* 
