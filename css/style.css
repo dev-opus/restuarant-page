@@ -251,3 +251,77 @@ body {
 .active {
     border-bottom: 2px solid #75daad;
 }
+
+
+/* 
+    =====================================================================================================================================
+                                                   MEDIA QUERIES STYLES
+    =====================================================================================================================================
+
+*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+    .main-header ul {
+        padding: 0;
+    }
+
+    .home-container {
+        width: 100%;
+    }
+
+    .home-header h2 {
+        letter-spacing: normal;
+    }
+
+    .menu-container {
+        width: 100%;
+    }
+
+    .menu-text .menu-grid {
+        display: block;
+    }
+
+    .menu-text .menu-grid .menu-item {
+        margin-top: 1.5em;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .menu-container {
+        width: 100%;
+    }
+
+    .menu-text .menu-grid .menu-item img {
+        width: 200px;
+        height: 150px;
+    }
+
+    html,
+    body {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+    .menu-text .menu-grid .menu-item img {
+        width: 300px;
+        height: 250px;
+    }
+
+    html,
+    body {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (min-device-width: 450px) and (max-device-width: 600px) {
+    .menu-text .menu-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .menu-text .menu-grid .menu-item img {
+        width: 200px;
+        height: 150px;
+    }
+}
