@@ -12,11 +12,14 @@ const navBar = (() => {
     tabs.classList.add('nav-bar');
     
     const generateTabcontents = ((...args) => {
+        const texts = ['contact', 'menu', 'home']
         args = Array.from(args)
         const elems1 = args.map(arg => {
             const a = document.createElement('a');
             a.setAttribute('href', '#');
             a.innerText = arg;
+            a.classList.add(texts[texts.length -1])
+            texts.pop()
             return a;
         });
 
