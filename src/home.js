@@ -30,7 +30,7 @@ const welcomePage = (() => {
         }
 
         const img = document.createElement('img');
-        setAtributes(img, {'src': '../img/jollof-rice-2.jpg', 'width': '300', 'height': '250'})
+        setAtributes(img, {'src': './img/jollof-rice-2.jpg', 'width': '300', 'height': '250'})
 
         const div = document.createElement('div');
         div.classList.add('img-container');

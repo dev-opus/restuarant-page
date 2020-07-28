@@ -49,7 +49,7 @@ const menu =(() => {
 
                 grid.appendChild(cell)
             })
-        })({'src': '../img/afang.jpg'}, {'src':'../img/ogbono.jpg', 'width': '320'}, {'src': '../img/goatmeat.jpg'}, {'src': '../img/jollof.jpg'}, {'src': '../img/oha-soup.jpg', 'width': '320'}, {'src': '../img/coconut.jpg'});
+        })({'src': './img/afang.jpg'}, {'src':'./img/ogbono.jpg', 'width': '320'}, {'src': './img/goatmeat.jpg'}, {'src': './img/jollof.jpg'}, {'src': './img/oha-soup.jpg', 'width': '320'}, {'src': './img/coconut.jpg'});
     })()
 
     const appendToArticle = ((...args) => {

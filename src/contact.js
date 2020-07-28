@@ -26,7 +26,7 @@ const contact =(() => {
         }
 
         const img = document.createElement('img');
-        setAtributes(img, {'src': '../img/location.png', 'width': '300', 'height': '250'});
+        setAtributes(img, {'src': './img/location.png', 'width': '300', 'height': '250'});
 
         const para = document.createElement('p');
         para.innerHTML = 'We are located at Port-Harcourt Mall, No. 1 Azikiwe Road.<br />Call us on +234-000-000-000 or +234-111-111-111';
